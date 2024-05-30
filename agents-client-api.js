@@ -49,6 +49,7 @@ window.onload = (event) => {
     chatIdLabel.innerHTML = chatId;
   }
 };
+
 async function createPeerConnection(offer, iceServers) {
   if (!peerConnection) {
     peerConnection = new RTCPeerConnection({ iceServers });
